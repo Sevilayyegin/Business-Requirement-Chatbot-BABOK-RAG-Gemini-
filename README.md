@@ -11,10 +11,10 @@ Traditionally, documenting and analyzing requirements takes hours or days — th
 
 ### System Overview
 
-🧠 **Data-Driven (RAG-Powered)** — Retrieves and analyzes semantically similar requirements from a vector database.
-📘 **BABOK-Compliant** — Generates requirement documents aligned with the Business Analysis Body of Knowledge (BABOK).
-⚙️ **Scalable (ChromaDB + Gemini)** — Designed for high scalability and efficient retrieval on large datasets.
-💬 **User-Friendly (Gradio Interface)** — Simple and interactive interface for analysts and business users.
+- 🧠 **Data-Driven (RAG-Powered)** — Retrieves and analyzes semantically similar requirements from a vector database.
+- 📘 **BABOK-Compliant** — Generates requirement documents aligned with the Business Analysis Body of Knowledge (BABOK).
+- ⚙️ **Scalable (ChromaDB + Gemini)** — Designed for high scalability and efficient retrieval on large datasets.
+- 💬 **User-Friendly (Gradio Interface)** — Simple and interactive interface for analysts and business users.
 
 In essence, this chatbot partially automates a business analyst’s key tasks:
 
@@ -230,18 +230,31 @@ This project is released under the **MIT License**.
 
 ## 🧠 Results & Evaluation
 
-This project successfully demonstrates how **AI-driven requirement engineering** can automate business analysis processes following **BABOK** principles.
+This project demonstrates that AI-driven requirement engineering can effectively operationalize the principles of the BABOK (Business Analysis Body of Knowledge) framework.
 
-Thanks to the RAG architecture, the chatbot produces:
+Traditionally manual and time-intensive processes such as requirement identification, classification, and prioritization have been streamlined through a combination of LLM-based automation and data-driven analysis.
 
-* Contextually relevant, semantically aligned requirements,
-* Consistent and traceable outputs,
-* Structured, measurable deliverables.
+Key Findings
 
-The model integrates **Gemini LLM** with **vector-based retrieval**, forming a scalable and reliable foundation for future applications in:
+- The RAG (Retrieval-Augmented Generation) architecture enables not only textual but also contextual and semantic-level analysis of requirements.
+- The Gemini LLM successfully transforms user-provided natural language project descriptions into BABOK-compliant requirement structures.
+- The generated outputs align with Business, Stakeholder, Solution, and Transition requirement types and maintain full traceability and consistency.
 
-* Automated business analysis,
-* Requirement quality assessment,
-* Enterprise knowledge management.
+Added Value
+
+This system enhances the discipline of business analysis by:
+
+- Improving requirement quality, traceability, and consistency,
+- Supporting data-driven prioritization and decision-making,
+- Enabling scalable and reusable organizational knowledge bases.
+- Academic and Industrial Perspective
+- 
+By bridging requirement engineering and LLM-based knowledge management, this project lays the groundwork for future research and development in:
+
+- Automated requirement validation,
+- Consistency and dependency analysis,
+- Enterprise knowledge base integration.
+
+In conclusion, the integration of BABOK principles, RAG methodology, and the Gemini LLM demonstrates that artificial intelligence can serve as a strategic partner in business analysis, enhancing both efficiency and analytical depth in requirement engineering.
 
 ---
