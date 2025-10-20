@@ -198,10 +198,22 @@ print(rag_response_babok(test_query))
 
 📈 **Sample Output:**
 
-* Nature: Non-Functional
-* RICE Score: 44.8
-* WSJF Score: 5.1
-* BABOK Output: “The system shall process 60,000 requests per second with under 200ms latency.”
+**Type:** Solution  
+**Nature (F/NF):** Functional  
+**Requirement:** The system shall provide real-time monitoring and reporting of API usage metrics (calls, latency, error rate, etc.).  
+**Rationale:** Enables continuous performance tracking and early anomaly detection.  
+**Business Value:** Supports optimization, proactive risk management, and informed decision-making.  
+**Stakeholders:** Business, Admins, Developers, Security Team  
+**Acceptance Criteria:**
+- The system must track metrics in real time (e.g., every 1 minute).  
+- Display data as interactive charts and tables.  
+- Send alerts when thresholds are exceeded (e.g., via email/SMS).  
+- Generate reports for different time ranges (daily, weekly, monthly).  
+- Store data securely and prevent unauthorized access.  
+**MoSCoW:** Should (important for performance monitoring)  
+**Impact:** 4 **Effort:** 3 **Risk:** 2  
+**Kano Class:** Performance (better monitoring → higher reliability)  
+**Cost of Delay:** Medium — delayed detection can lead to costly outages.  
 
 ---
 
