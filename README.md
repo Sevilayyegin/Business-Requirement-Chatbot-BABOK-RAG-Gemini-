@@ -27,7 +27,7 @@ In essence, this chatbot partially automates a business analyst’s key tasks:
 
 ## 🧩 System Architecture
 
-![architecture](Business%20Requirement%20Chatbot.png)
+![architecture](Business%20Requirement%20Chatbot.webp)
 
 > 💡 **Data Flow:**
 > User → Embedding (Gemini) → ChromaDB (RAG) → LLM (Gemini) → BABOK-Compliant Output → Prioritization (RICE / WSJF) → Gradio UI
